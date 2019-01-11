@@ -1,10 +1,13 @@
 # csibe setup
 
 - Download csibe (CMSIS, bzip2-1.0.6, flex-2.6.0)
-https://github.com/szeged/csibe
+
+    https://github.com/szeged/csibe
 
 - Add the riscv32 toolchain files to /toolchain-files
+
       clang-riscv32.cmake
+      
       gcc-riscv32.cmake
 
 - Add the compiler (GCC or LLVM) install dir to the path
